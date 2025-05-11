@@ -1,0 +1,30 @@
+.wrap {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary)
+}
+
+@media (max-width: 700px) {
+    .inner nav {
+        display: none
+    }
+}

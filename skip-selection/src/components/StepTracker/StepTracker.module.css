@@ -1,0 +1,62 @@
+.list {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    position: relative;
+}
+
+.dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.label {
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.done .dot {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+    cursor: pointer;
+}
+
+.done .label {
+    color: var(--primary);
+}
+
+.current .dot {
+    background: var(--primary-low);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.current .label {
+    font-weight: 600;
+    color: var(--fg);
+}
+
+.todo .dot {
+    cursor: not-allowed;
+}
