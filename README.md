@@ -54,7 +54,7 @@ npm run dev    # localhost:5173
 npm run build  # production assets
 ~~~
 
-Live demo: <https://codesandbox.io/p/devbox/REMWaste-skip-selection-victor>
+Live demo: <[https://codesandbox.io/p/devbox/REMWaste-skip-selection-victor](https://codesandbox.io/p/sandbox/github/VictorCondurat/remwaste-challenge-Victor-Condurat/tree/main/skip-selection)>
 
 ---
 
